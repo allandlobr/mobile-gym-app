@@ -2,12 +2,12 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { FontAwesome5 } from "@expo/vector-icons";
-import HomeScreen from "./pages/HomeScreen";
-import WorkoutsScreen from "./pages/WorkoutsScreen";
+import HomeScreen from "./screens/HomeScreen";
+import WorkoutsScreen from "./screens/WorkoutsScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import WorkoutDetails from "./pages/WorkoutDetails";
+import WorkoutDetails from "./screens/WorkoutDetails";
 import { SelectProvider } from "@mobile-reality/react-native-select-pro";
-import WorkoutEdit from "./pages/WorkoutEdit";
+import WorkoutEdit from "./screens/WorkoutEdit";
 
 const Tab = createBottomTabNavigator();
 const WorkoutStack = createNativeStackNavigator();
